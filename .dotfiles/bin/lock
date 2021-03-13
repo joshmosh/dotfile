@@ -1,0 +1,5 @@
+#!/bin/bash
+
+echo "🔮  Launching screen saver and locking..."
+
+open -a ScreenSaverEngine
