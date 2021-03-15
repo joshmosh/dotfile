@@ -3,3 +3,6 @@
 	br = branch
 	ci = commit
 	st = status
+	ps = push
+	pl = pull
+	psf = push -f
