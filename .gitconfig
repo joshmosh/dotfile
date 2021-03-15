@@ -6,3 +6,6 @@
 	ps = push
 	pl = pull
 	psf = push -f
+[user]
+	name = Josh Minnich
+	email = joshminnich@gmail.com
