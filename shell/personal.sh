@@ -2,12 +2,7 @@
 . $HOME/.asdf/asdf.sh
 
 # Git Completion
-if type brew &>/dev/null; then
-  FPATH=$(brew --prefix)/share/zsh/site-functions:$FPATH
-
-  autoload -Uz compinit
-  compinit
-fi
+fpath=($HOME/.zsh $fpath)
 
 # Aliases
 alias devdown="brew services stop postgresql"
