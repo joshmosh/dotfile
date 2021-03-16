@@ -1,4 +1,4 @@
-export PATH="$HOME/scripts/bin:$PATH"
+export PATH="$HOME/.dotfiles/scripts/bin:$PATH"
 
 export EDITOR="atom --wait"
 export GIT_EDITOR="atom --wait"
