@@ -10,3 +10,6 @@ source "$HOME/.dotfiles/shell/personal.sh"
 alias dotfiles="atom $HOME/.dotfiles"
 alias profile="atom $HOME/.zshrc"
 alias reload="source $HOME/.zshrc"
+
+# ASDF Config
+. $HOME/.asdf/asdf.sh

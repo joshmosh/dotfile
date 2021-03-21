@@ -1,6 +1,3 @@
-# ASDF Config
-. $HOME/.asdf/asdf.sh
-
 # Git Completion
 zstyle ':completion:*:*:git:*' script ~/.zsh/git-completion.bash
 fpath=($HOME/.zsh $fpath)
