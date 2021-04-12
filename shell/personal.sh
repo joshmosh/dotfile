@@ -8,10 +8,10 @@ autoload -Uz compinit && compinit
 alias devdown="brew services stop postgresql"
 alias devup="brew services start postgresql"
 
-alias desktop="cd /Users/joshm/Desktop"
-alias documents="cd /Users/joshm/Documents"
-alias downloads="cd /Users/joshm/Downloads"
-alias sites="cd /Users/joshm/Sites"
+alias desktop="cd ~/Desktop"
+alias documents="cd ~/Documents"
+alias downloads="cd ~/Downloads"
+alias sites="cd ~/Sites"
 
-alias pcp.git="cd /Users/joshm/Sites/paper-craft-pantry"
-alias lsl.git="cd /Users/joshm/Sites/live-show-link"
+alias pcp.git="cd ~/Sites/paper-craft-pantry"
+alias lsl.git="cd ~/Sites/live-show-link"
