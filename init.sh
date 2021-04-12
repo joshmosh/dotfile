@@ -23,6 +23,13 @@ git checkout "$(git describe --abbrev=0 --tags)"
 
 cd $HOME
 
+asdf plugin-add nodejs https://github.com/asdf-vm/asdf-nodejs.git
+asdf plugin-add ruby https://github.com/asdf-vm/asdf-ruby.git
+asdf plugin-add yarn
+asdf install yarn latest
+
+cd $HOME
+
 ln -s .dotfiles/.zshrc .zshrc
 ln -s .dotfiles/.asdfrc .asdfrc
 ln -s .dotfiles/.editorconfig .editorconfig
