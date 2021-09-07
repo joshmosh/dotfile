@@ -1,15 +1,17 @@
 export PATH="$HOME/.dotfiles/scripts/bin:$PATH"
 
-export EDITOR="atom --wait"
-export GIT_EDITOR="atom --wait"
+export EDITOR="code --wait"
+export GIT_EDITOR="code --wait"
 
 source "$HOME/.dotfiles/shell/theme.sh"
 source "$HOME/.dotfiles/shell/scribd.sh"
 source "$HOME/.dotfiles/shell/personal.sh"
 
-alias dotfiles="atom $HOME/.dotfiles"
-alias profile="atom $HOME/.zshrc"
+alias dotfiles="code $HOME/.dotfiles"
+alias profile="code $HOME/.zshrc"
 alias reload="source $HOME/.zshrc"
+
+alias lsl="ls -la"
 
 # ASDF Config
 . $HOME/.asdf/asdf.sh
