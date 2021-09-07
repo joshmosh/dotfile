@@ -6,3 +6,4 @@ alias ss.git="cd ~/Documents/scribd/git/slideshare-web-app"
 alias ssds.git="cd ~/Documents/scribd/git/slideshare-design-system"
 
 alias devkube="dbt devkube"
+alias kube="devkube"
