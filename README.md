@@ -4,4 +4,5 @@ Feels kind of weird to write a readme for something that only I use but hey... H
 
 ## Installation
 
-Run `./init.sh` and wait... ☕️
+- `xcode-select --install`
+- `./init.sh`

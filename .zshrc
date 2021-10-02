@@ -13,5 +13,8 @@ alias reload="source $HOME/.zshrc"
 
 alias lsl="ls -la"
 
+# Homebrew config
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
 # ASDF Config
 . $HOME/.asdf/asdf.sh
