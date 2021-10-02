@@ -3,6 +3,11 @@ cd $HOME
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
+brew install gpg
+brew install gawk
+
+brew install --cask keepingyouawake
+
 cd $HOME
 mkdir $HOME/.zsh
 cd $HOME/.zsh
