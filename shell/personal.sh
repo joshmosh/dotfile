@@ -5,8 +5,8 @@ fpath=($HOME/.zsh $fpath)
 autoload -Uz compinit && compinit
 
 # Aliases
-alias devdown="brew services stop postgresql"
-alias devup="brew services start postgresql"
+alias mysqldown="brew services stop mysql"
+alias mysqlup="brew services start mysql"
 
 alias desktop="cd ~/Desktop"
 alias documents="cd ~/Documents"
