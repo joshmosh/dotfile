@@ -5,6 +5,7 @@ export GIT_EDITOR="code --wait"
 
 source "$HOME/.dotfiles/shell/theme.sh"
 source "$HOME/.dotfiles/shell/personal.sh"
+source "$HOME/.dotfiles/shell/nerdwallet.sh"
 
 alias dotfiles="code $HOME/.dotfiles"
 alias profile="code $HOME/.zshrc"
@@ -16,4 +17,4 @@ alias lsl="ls -la"
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # ASDF Config
-. $HOME/.asdf/asdf.sh
+# . $HOME/.asdf/asdf.sh

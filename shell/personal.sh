@@ -12,6 +12,3 @@ alias desktop="cd ~/Desktop"
 alias documents="cd ~/Documents"
 alias downloads="cd ~/Downloads"
 alias sites="cd ~/Sites"
-
-alias pcp.git="cd ~/Sites/paper-craft-pantry"
-alias lsl.git="cd ~/Sites/live-show-link"
