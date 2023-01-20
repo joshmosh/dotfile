@@ -17,4 +17,4 @@ alias lsl="ls -la"
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # ASDF Config
-# . $HOME/.asdf/asdf.sh
+. $HOME/.asdf/asdf.sh
