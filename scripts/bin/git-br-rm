@@ -45,7 +45,6 @@ fi
 
 for branch in "${matching_branches[@]}"; do
     git branch -D "$branch"
-    echo "Deleted: $branch"
 done
 
 echo "✅  Done!"
