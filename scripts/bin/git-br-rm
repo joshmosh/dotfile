@@ -1,0 +1,51 @@
+#!/bin/bash
+
+usage() {
+    cat <<EOF
+Usage: $(basename "$0") <glob-pattern>
+Example: $(basename "$0") "git-branch-*"
+
+Description: Finds git branches matching the provided glob pattern and deletes them. This script does not remove remote branches!
+EOF
+}
+
+confirm_delete() {
+  while true; do
+    read -p "👉  (y/n): " yn
+    case "$yn" in
+      [Yy]* )
+        return 0;;
+      [Nn]* )
+        return 1;;
+      * )
+        return 1;;
+    esac
+  done
+}
+
+if [ $# -ne 1 ]; then
+    usage
+    exit 1
+fi
+
+pattern="$1"
+matching_branches=($(git branch | grep -E $pattern | awk '{$1=$1; print}'))
+
+echo "🐙  Branches matching '$1':"
+for branch in "${matching_branches[@]}"; do
+  echo "$branch"
+done
+echo "✋  Are you sure you want to delete?"
+
+if ! confirm_delete; then
+  echo ""
+  echo "🛑 Stopping!"
+  exit 1
+fi
+
+for branch in "${matching_branches[@]}"; do
+    git branch -D "$branch"
+    echo "Deleted: $branch"
+done
+
+echo "✅  Done!"

@@ -5,8 +5,7 @@ fpath=($HOME/.zsh $fpath)
 autoload -Uz compinit && compinit
 
 # Aliases
-alias mysqldown="brew services stop mysql"
-alias mysqlup="brew services start mysql"
+alias ohshit="git reset --soft HEAD~1"
 
 alias desktop="cd ~/Desktop"
 alias documents="cd ~/Documents"
