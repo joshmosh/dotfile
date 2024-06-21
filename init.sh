@@ -21,18 +21,15 @@ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 
 cd $HOME
 
-git clone https://github.com/asdf-vm/asdf.git $HOME/.asdf
-cd $HOME/.asdf
-git checkout "$(git describe --abbrev=0 --tags)"
+git clone https://github.com/nvm-sh/nvm.git $HOME/.nvm
+cd $HOME/.nvm
+git checkout `git describe --abbrev=0 --tags --match "v[0-9]*" $(git rev-list --tags --max-count=1)`
+. $HOME/.nvm/nvm.sh
 
 cd $HOME
 
-. $HOME/.asdf/asdf.sh
-
-asdf plugin-add nodejs https://github.com/asdf-vm/asdf-nodejs.git
-asdf plugin-add ruby https://github.com/asdf-vm/asdf-ruby.git
-
-cd $HOME
+brew install chruby
+brew install ruby-install
 
 mv dotfiles .dotfiles
 
