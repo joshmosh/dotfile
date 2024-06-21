@@ -1,6 +1,6 @@
 # Dotfiles
 
-Feels kind of weird to write a readme for something that only I use but hey... Here we are.
+These are my dotfiles. There are many like them, but these ones are mine!
 
 ## Installation
 
