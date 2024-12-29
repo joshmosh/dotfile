@@ -31,6 +31,9 @@ cd $HOME
 brew install chruby
 brew install ruby-install
 
+brew install --cask visual-studio-code
+brew install --cask ghostty
+
 mv dotfiles .dotfiles
 
 ln -s .dotfiles/.zshrc .zshrc
