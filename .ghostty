@@ -1,0 +1,17 @@
+font-family="MonoLisa Variable"
+font-style="Medium"
+font-size=16
+font-thicken=true
+font-feature=-calt
+font-feature=-liga
+font-feature=-dlig
+
+theme=OneHalfDark
+
+cursor-opacity=1
+cursor-style=block
+
+window-padding-x=8
+window-padding-y=4
+window-width=140
+window-height=32
