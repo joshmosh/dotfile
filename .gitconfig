@@ -12,3 +12,5 @@
 	signingkey = B51CDD825BC86E31A3104322DD79904C0670DE71
 [commit]
 	gpgsign = true
+[includeIf "gitdir:~/Documents/Projects/"]
+	path = ./.gitconfig-work

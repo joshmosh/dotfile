@@ -1,0 +1,13 @@
+[user]
+	name = Josh Minnich
+	email = jminnich@nerdwallet.com
+	signingkey = EAF7BFF178D7F03A
+[url "git@github.com:"]
+	insteadOf = https://github.com/
+[commit]
+	gpgSign = true
+[filter "lfs"]
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
