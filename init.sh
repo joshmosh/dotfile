@@ -37,7 +37,7 @@ brew install --cask ghostty
 mv dotfiles .dotfiles
 
 ln -s .dotfiles/.zshrc .zshrc
-ln -s .dotfiles/.asdfrc .asdfrc
+ln -s .dotfiles/.zprofile .zprofile
 ln -s .dotfiles/.editorconfig .editorconfig
 ln -s .dotfiles/.gitignore .gitignore
 ln -s .dotfiles/.gitconfig .gitconfig

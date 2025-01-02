@@ -1,9 +1,3 @@
-# Git Completion
-zstyle ':completion:*:*:git:*' script ~/.zsh/git-completion.bash
-fpath=($HOME/.zsh $fpath)
-
-autoload -Uz compinit && compinit
-
 # Aliases
 alias lsl="ls -la"
 
