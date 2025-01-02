@@ -21,6 +21,6 @@ export NVM_DIR="$HOME/.nvm"
 
 # Chruby
 if [ -d /opt/homebrew/opt/chruby ]; then
-source /opt/homebrew/opt/chruby/share/chruby/chruby.sh
-source /opt/homebrew/opt/chruby/share/chruby/auto.sh
+  source /opt/homebrew/opt/chruby/share/chruby/chruby.sh
+  source /opt/homebrew/opt/chruby/share/chruby/auto.sh
 fi
